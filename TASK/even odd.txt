@@ -1,0 +1,10 @@
+max=int(input("enter the maximum value: "))
+a=0
+b=0
+for num in range(20,max+1):
+    if (num%2==0):
+        a=a+num
+    else:
+        b=b+num
+print("The sum of Even numbers",a)
+print("The sum of odd numbers",b)
